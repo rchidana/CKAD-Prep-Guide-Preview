@@ -135,8 +135,8 @@ In case you need to split your teminal into multiple sections, you can install t
   #Bring up tmux using the command
   >tmux
   
-To split the Screen Horizontally: Press CTLR+B and then hit "
-To split the Screen Vertically: Press CTLR+B and then hit %
-To Navigate between Screens : Press CTRL+B and then <- or -> or Up/Down Keys
-To exit tmux
+To split the Screen Horizontally: Press CTLR+B and then hit "  
+To split the Screen Vertically: Press CTLR+B and then hit %  
+To Navigate between Screens : Press CTRL+B and then <- or -> or Up/Down Keys  
+To exit tmux  
   >exit
