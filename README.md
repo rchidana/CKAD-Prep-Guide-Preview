@@ -1,6 +1,6 @@
 # CKAD-Prep-Guide-Preview
 
-### An excerept from my CKAD-Prep-Guide targeting Kubernetes Version 1.18.
+### An excerpt from my CKAD-Prep-Guide targeting Kubernetes Version 1.18.
 
 
 # Pod Related Commands
@@ -79,7 +79,7 @@ Get pod with labels
 ### Replacing a running pod from a yaml file-name forcibly (deletes running pod)
 	>k replace --force -f new-pod.yml
 
-### Setting current context to modify default namespace to chid-anand
+### Setting current context to modify default namespace to <name-space-of-choice>
 	>k config set-context --current --namespace=<name-space-of-choice>
 
 
@@ -105,7 +105,7 @@ Get pod with labels
 Hint : similiar to Docker, there is --rm option that can be used to delete a 'foreground' pod!
 But you need to use -it option to run the pod in the foreground
 
-  kubectl run busybox -it --rm --image=busybox --restart=Never -- sh -c "echo 'hello world, I will be removed upon exit!!'"
+	kubectl run busybox -it --rm --image=busybox --restart=Never -- sh -c "echo 'hello world, I will be removed upon exit!!'"
 
 ### Max waiting period for a Pod to come up live, if not, terminate it automatically
 Hint : activeDeadlineSeconds
@@ -135,7 +135,7 @@ In case you need to split your teminal into multiple sections, you can install t
   #Bring up tmux using the command
   >tmux
   
-To split the Screen Horizontally: Press CTLR+B and then hit " 
+To split the Screen Horizontally: Press CTLR+B and then hit "
 To split the Screen Vertically: Press CTLR+B and then hit %
 To Navigate between Screens : Press CTRL+B and then <- or -> or Up/Down Keys
 To exit tmux
