@@ -129,7 +129,7 @@ AutoIndent (ai) setting in the .vimrc file can create issues while copying & pas
 # Tmux Commands
 In case you need to split your teminal into multiple sections, you can install tmux (on Ubuntu) using the command
  
-  >sudo apt-get update
+  >sudo apt-get update  
   >sudo apt-get install tmux
   
   #Bring up tmux using the command
