@@ -1,6 +1,6 @@
 # CKAD-Prep-Guide-Preview
 
-### An excerpt from my CKAD-Prep-Guide targeting Kubernetes Version 1.18.
+### An excerpt from my CKAD-Prep-Guide targeting Kubernetes Version 1.18
 
 
 # Pod Related Commands
