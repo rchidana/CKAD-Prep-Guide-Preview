@@ -123,7 +123,7 @@ Hint : activeDeadlineSeconds
 
 # Recommended .vimrc file setting so as to quickly edit your yaml file
 
-  autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+  autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab  
   
 AutoIndent (ai) setting in the .vimrc file can create issues while copying & pasting contents from other sources onto vi editor. In such case, just type in "set paste" in the vi editor mode before pasting contents.
 
