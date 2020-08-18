@@ -50,8 +50,8 @@
 
 ### Labels
 Get pod with labels
-	>k get po --show-labels
-	>k get po -L label-key1,label-key2
+	>k get po --show-labels  
+	>k get po -L label-key1,label-key2  
 
 ### Getting Pods with specific label
 
@@ -93,7 +93,8 @@ Get pod with labels
 	kubectl delete pods,services -l name=myLabel
 
 ### Delete a pod with minimal delay
-	kubectl delete pod foo --now
+	kubectl delete pod foo --now  
+	kubectl delete po foo --force --grace-period=0  
 
 ### Force delete a pod on a dead node
 	kubectl delete pod foo --force
