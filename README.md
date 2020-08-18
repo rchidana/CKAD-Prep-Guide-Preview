@@ -49,7 +49,7 @@
 
 
 ### Labels
-Get pod with labels
+Get pod with labels  
 	>k get po --show-labels  
 	>k get po -L label-key1,label-key2  
 
