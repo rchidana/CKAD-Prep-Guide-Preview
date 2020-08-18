@@ -51,7 +51,7 @@
 ### Labels
 Get pod with labels
 	>k get po --show-labels
-	>k get po -L <label-key1>,<label-key2>
+	>k get po -L label-key1,label-key2
 
 ### Getting Pods with specific label
 
